@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS | Z-Index</title>
+    <style>
+        .layer1 {
+            position: absolute;
+            margin: 20px 150px;
+            height: 200px;
+            width: 200px;
+            padding: 10px 15px;
+            background: rgb(19, 255, 31);
+            z-index: 3;
+        }
+
+        .layer2 {
+            position: absolute;
+            margin: 100px 0;
+            height: 150px;
+            width: 300px;
+            padding: 10px 15px;
+            background: rgb(0, 255, 242);
+            z-index: 2;
+        }
+
+        .layer3 {
+            position: absolute;
+            margin: 0 20px;
+            height: 200px;
+            width: 400px;
+            padding: 10px 15px;
+            background: pink;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="layer1"> Layer 1</div>
+    <div class="layer2"> Layer 2</div>
+    <div class="layer3"> Layer 3</div>
+</body>
+</html>
